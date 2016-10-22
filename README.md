@@ -122,7 +122,7 @@ if not ipdetail then
     return
 end
 
-local ipLocation, err = ipdetail:locationApiFree()
+local ipLocation, err = ipdetail:locationApi("your sid", "your uid")
 if not ipLocation then
     ngx.log(ngx.ERR, err)
     ngx.say(failure(err))
