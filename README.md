@@ -4,7 +4,6 @@ ipip.net IP数据库之openresty版
 
 ## 使用方式
 
-本脚本
 
 ### nginx 配制
 
